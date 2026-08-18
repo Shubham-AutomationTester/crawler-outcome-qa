@@ -153,11 +153,15 @@ app.get("/not-found", (req, res) => {
 });
 
 app.get("/redirect", (req, res) => {
-  res.redirect(
-    302,
-    "https://qa-automation.searchstax.co/v1/minisite/custom_en/index.html"
-  );
+  res.redirect(302, "/valid");
 });
+
+//app.get("/redirect", (req, res) => {
+//  res.redirect(
+//    302,
+//    "https://qa-automation.searchstax.co/v1/minisite/custom_en/index.html"
+//  );
+// });
 
 app.get("/excluded/page", (req, res) => {
   res.status(200).send(htmlPage({
