@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
 <body>
   <main class="container">
     <header>
-      <p class="eyebrow">SearchStax QA Fixture</p>
+      <p class="eyebrow">SearchStax QA Fixture --- Author - Shubham Sharma</p>
       <h1>Crawler Outcome QA Site</h1>
       <p>
         Deterministic endpoints for validating standardized
