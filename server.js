@@ -11,7 +11,7 @@ function htmlPage({ title, testCase, heading, body, extraHead = "" }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SearchStax crawler outcome QA fixture">
+  <meta name="description" content="SearchStax crawler outcome QA fixture - Author - Shubham Sharma ">
   <meta name="qa-test-case" content="${testCase}">
   ${extraHead}
   <title>${title}</title>
